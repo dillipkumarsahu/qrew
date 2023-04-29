@@ -28,9 +28,6 @@ const cards = [
 ];
 
 function Dinezone() {
-	/**
-	 * We have declared the screen size according to devices
-	 */
 	const theme = useTheme();
 	const mobile = useMediaQuery(theme.breakpoints.only('xs'));
 	const tablet = useMediaQuery(theme.breakpoints.only('sm'));

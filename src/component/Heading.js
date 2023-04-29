@@ -7,9 +7,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
 function Heading() {
-	/**
-	 * We have declared the screen size according to devices
-	 */
 	const theme = useTheme();
 	const mobile = useMediaQuery(theme.breakpoints.only('xs'));
 	const desktopTablet = useMediaQuery(theme.breakpoints.up('sm'));

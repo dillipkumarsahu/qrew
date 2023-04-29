@@ -4,9 +4,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
 function ExperienceQrew() {
-	/**
-	 * We have declared the screen size according to devices
-	 */
 	const theme = useTheme();
 	const mobile = useMediaQuery(theme.breakpoints.only('xs'));
 	const tablet = useMediaQuery(theme.breakpoints.only('sm'));

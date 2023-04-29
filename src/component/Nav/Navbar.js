@@ -14,9 +14,6 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import MenuIcon from '@mui/icons-material/Menu';
 
-/**
- * Here we are defining a custom search field
- */
 const SearchField = styled(TextField)({
 	'& .MuiOutlinedInput-root': {
 		color: '#51598B',
@@ -40,9 +37,6 @@ const SearchField = styled(TextField)({
 const menuOptions = ['Menu', 'contact', 'about', 'our store', 'book table'];
 
 function Navbar() {
-	/**
-	 * We have declared the screen size according to devices
-	 */
 	const theme = useTheme();
 	const mobile = useMediaQuery(theme.breakpoints.only('xs'));
 	const tablet = useMediaQuery(theme.breakpoints.only('sm'));
